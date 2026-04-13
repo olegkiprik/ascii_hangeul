@@ -68,7 +68,7 @@ C strings are used. A macro RHR_FINAL_CONSONANTS_PRECEDENCE is defined.
 Input: "  annyeonghaseyo "  
 Output: "\\n  an-nyeong-ha-se-yo "  
 
-Input: " anh-a-{ }yo"  
+Input: " anha-{ }yo"  
 Output: "\\n anh-a{ }-yo"  
 
 Input: " {{\\\\\\\\\\\\}} "  
