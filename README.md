@@ -63,7 +63,7 @@ No errors are emitted if the input does not follow the rules.
 
 ## Examples
 
-C strings are used. A macro DRHR_FINAL_CONSONANTS_PRECEDENCE is defined.
+C strings are used. A macro RHR_FINAL_CONSONANTS_PRECEDENCE is defined.
 
 Input: "  annyeonghaseyo "  
 Output: "\\n  an-nyeong-ha-se-yo "  
