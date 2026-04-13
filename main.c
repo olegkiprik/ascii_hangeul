@@ -179,7 +179,7 @@ EFINE_DEF int rhr_portable_char_is_consonant(char c)
 */
 EFINE_DEF int rhr_std_optim_char_is_consonant(char c)
 {
-#if 1 == 1
+#if 0 == 1
 	return (c < 'b' || c > 't' || c == 'o' || c == 'i' || c == 'e') ? 0 : 1;
 #else
 	int f1;
@@ -207,7 +207,7 @@ EFINE_DEF int rhr_non_consonant_pair_possible(char b0, char c)
 {
 	/* a vowel is expected after 'w' and after 'y' */
 
-#if 1 == 1
+#if 0 == 1
 	if (b0 == 'y' || b0 == 'w')
 		return 1;
 
@@ -263,7 +263,7 @@ EFINE_DEF int rhr_non_consonant_pair_possible(char b0, char c)
 
 EFINE_DEF int rhr_non_consonant_triple_possible(char b0, char b1, char b2)
 {
-#if 1 == 1
+#if 0 == 1
 	if (b0 == 'y' && b1 == 'e' && b2 == 'o')
 		return 1;
 
@@ -327,7 +327,7 @@ EFINE_DEF int rhr_consonant_initial_possible(char c0, char c1)
 {
 	/* "cs" is not expected */
 
-#if 1 == 1
+#if 0 == 1
 	if (c0 == 'p' && c1 == 'p' || c0 == 'j' && c1 == 'j')
 		return 1;
 
@@ -386,7 +386,7 @@ EFINE_DEF int rhr_consonant_initial_possible(char c0, char c1)
 EFINE_DEF int rhr_consonant_final_possible(char c0, char c1)
 {
 	/* "cg", "cm", "cp", "cs", "ct", "cj", "cb" are not expected */
-#if 1 == 1
+#if 0 == 1
 	if (c0 == 'n' && c1 == 'g' || c0 == 'k' && c1 == 'k')
 		return 1;
 
