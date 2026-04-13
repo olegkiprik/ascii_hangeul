@@ -9,34 +9,54 @@ Possible pairs:
   yweaouibdgksptjmnhlrc
 
 y ..xxxx...............
+
 w ..xxx.x..............
+
 e ..x.xx.llllllllllll.l
+
 a ..x....llllllllllll.l
+
 o ..x.x..llllllllllll.l
+
 u ......tllllllllllll.l
+
 i .......llllllllllll.l
+
 b xxxxxxx....f.........
+
 d xxxxxxx..............
+
 g xxxxxxx....f.........
+
 k xxxxxxx...u..........
+
 s xxxxxxx....u.....i...
+
 p xxxxxxx.....i........
+
 t xxxxxxx......i.......
+
 j xxxxxxx.......i......
+
 m xxxxxxx..............
+
 n xxxxxxx..f....f..f...
+
 h xxxxxxx..............
+
 l x.xxxxxf.f.fff.f.f...
+
 r xxxxxxx..............
+
 c .................u...
 
-x can be joined
-t triple only
-l scan further to decide
-i initial only
-f final only
-u both initial and final
-. cannot be joined
+- [ ] x can be joined
+- [ ] t triple only
+- [ ] l scan further to decide
+- [ ] i initial only
+- [ ] f final only
+- [ ] u both initial and final
+- [ ] . cannot be joined
 
 Possible triple non-consonant sequences: yeo yae weo wae woe eui
 
