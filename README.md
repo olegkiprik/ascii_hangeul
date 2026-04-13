@@ -6,49 +6,28 @@ Revised Romanization is ambiguous. Here are some notes on updated rules to make 
 
 Possible pairs:
 
-  yweaouibdgksptjmnhlrc
-
-y ..xxxx...............
-
-w ..xxx.x..............
-
-e ..x.xx.llllllllllll.l
-
-a ..x....llllllllllll.l
-
-o ..x.x..llllllllllll.l
-
-u ......tllllllllllll.l
-
-i .......llllllllllll.l
-
-b xxxxxxx....f.........
-
-d xxxxxxx..............
-
-g xxxxxxx....f.........
-
-k xxxxxxx...u..........
-
-s xxxxxxx....u.....i...
-
-p xxxxxxx.....i........
-
-t xxxxxxx......i.......
-
-j xxxxxxx.......i......
-
-m xxxxxxx..............
-
-n xxxxxxx..f....f..f...
-
-h xxxxxxx..............
-
-l x.xxxxxf.f.fff.f.f...
-
-r xxxxxxx..............
-
-c .................u...
+<kbd>  yweaouibdgksptjmnhlrc</kbd>
+<kbd>y ..xxxx...............</kbd>
+<kbd>w ..xxx.x..............</kbd>
+<kbd>e ..x.xx.llllllllllll.l</kbd>
+<kbd>a ..x....llllllllllll.l</kbd>
+<kbd>o ..x.x..llllllllllll.l</kbd>
+<kbd>u ......tllllllllllll.l</kbd>
+<kbd>i .......llllllllllll.l</kbd>
+<kbd>b xxxxxxx....f.........</kbd>
+<kbd>d xxxxxxx..............</kbd>
+<kbd>g xxxxxxx....f.........</kbd>
+<kbd>k xxxxxxx...u..........</kbd>
+<kbd>s xxxxxxx....u.....i...</kbd>
+<kbd>p xxxxxxx.....i........</kbd>
+<kbd>t xxxxxxx......i.......</kbd>
+<kbd>j xxxxxxx.......i......</kbd>
+<kbd>m xxxxxxx..............</kbd>
+<kbd>n xxxxxxx..f....f..f...</kbd>
+<kbd>h xxxxxxx..............</kbd>
+<kbd>l x.xxxxxf.f.fff.f.f...</kbd>
+<kbd>r xxxxxxx..............</kbd>
+<kbd>c .................u...</kbd>
 
 - [ ] x can be joined
 - [ ] t triple only
