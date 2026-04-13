@@ -8,3 +8,4 @@ AllowShortFunctionsOnASingleLine: false
 IndentCaseLabels: false
 InsertNewlineAtEOF: true
 KeepEmptyLinesAtEOF: true
+
