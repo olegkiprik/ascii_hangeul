@@ -10,7 +10,7 @@ EFINE_DEF int efine_fsync(int fd);
 
 #if defined(EFINE_FSYNC_IMPLEMENTATION)
 
-#include <stdio.h>
+#include <errno.h>
 
 #if !defined(EFINE_NO_UNNECESSARY_DEPENDING_ON_UNISTD)
 #include <unistd.h>
@@ -19,10 +19,8 @@ EFINE_DEF int efine_fsync(int fd);
 EFINE_DEF int efine_fsync(int fd)
 {
 #if !defined(EFINE_NO_UNNECESSARY_DEPENDING_ON_UNISTD)
-	if (0 == isatty(fd)) {
-		if (0 != fsync(fd)) {
-			return 1;
-		}
+	if (0 != fsync(fd) && errno != EINVAL) {
+		return 1;
 	}
 #endif
 	return 0;
@@ -32,4 +30,4 @@ EFINE_DEF int efine_fsync(int fd)
 
 #endif /* EFINE_FSYNC_H_SENTRY */
 
-/* 2026-04-13 */
+/* 2026-04-16 */
