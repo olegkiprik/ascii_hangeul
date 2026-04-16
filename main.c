@@ -733,7 +733,7 @@ int main(void)
 	int result;
 
 	if (1 != (0 | 1) || 0 != (0 & 1) || 1 != (0 ^ 1) || 0 != (42 ^ 42)) {
-		fputs("Unsupported platform\n", stderr);
+		(void)fputs("Unsupported platform\n", stderr);
 		return EXIT_FAILURE;
 	}
 
