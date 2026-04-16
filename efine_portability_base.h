@@ -1,21 +1,5 @@
 /*
 	Helpers to make C more dependable
-
-	An excerpt from
-	https://dependablec.org/#Requirements
-	2026-04-11
-
-	Bytes/char are 8 bits.
-
-	Types are aligned to their size.
-
-	Source code is ASCII. (C Source files can be Unicode, but this is not dependable, and creates all manner of
-	debugging, usability and security issues, like invisible characters, identically looking characters,
-	characters people cant type, backwards text and so on.)
-
-	Function pointer have the same size as data pointers. (Not guaranteed by the standard.)
-
-	int is at least 32 bits.
 */
 
 #if !defined(EFINE_PORTABILITY_BASE_H_SENTRY)
@@ -117,40 +101,6 @@
 #define EFINE_FLEXIBLE_ARRAY_MEMBER 1
 #define EFINE_FLEXIBLE_ARRAY_MEMBER_SUBTRACT 1
 #endif
-
-#if defined(EFINE_NOT_SUPPORTED_STDINT_LP64)
-
-typedef long intmax_t;
-typedef unsigned long uintmax_t;
-
-typedef signed char int8_t;
-typedef short int16_t;
-typedef int int32_t;
-typedef long int64_t;
-typedef unsigned char uint8_t;
-typedef unsigned short uint16_t;
-typedef unsigned int uint32_t;
-typedef unsigned long uint64_t;
-
-typedef signed char int_fast8_t;
-typedef short int_fast16_t;
-typedef int int_fast32_t;
-typedef long int_fast64_t;
-typedef unsigned char uint_fast8_t;
-typedef unsigned short uint_fast16_t;
-typedef unsigned int uint_fast32_t;
-typedef unsigned long uint_fast64_t;
-
-typedef signed char int_least8_t;
-typedef short int_least16_t;
-typedef int int_least32_t;
-typedef long int_least64_t;
-typedef unsigned char uint_least8_t;
-typedef unsigned short uint_least16_t;
-typedef unsigned int uint_least32_t;
-typedef unsigned long uint_least64_t;
-
-#endif /* EFINE_NOT_SUPPORTED_STDINT */
 
 #endif /* EFINE_PORTABILITY_BASE_H_SENTRY */
 

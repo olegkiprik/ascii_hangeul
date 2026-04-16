@@ -1,21 +1,5 @@
 /*
 	Helpers to make C more dependable
-
-	An excerpt from
-	https://dependablec.org/#Requirements
-	2026-04-11
-
-	Bytes/char are 8 bits.
-
-	Types are aligned to their size.
-
-	Source code is ASCII. (C Source files can be Unicode, but this is not dependable, and creates all manner of
-	debugging, usability and security issues, like invisible characters, identically looking characters,
-	characters people cant type, backwards text and so on.)
-
-	Function pointer have the same size as data pointers. (Not guaranteed by the standard.)
-
-	int is at least 32 bits.
 */
 
 #if !defined(EFINE_HELPERS_H_SENTRY)
