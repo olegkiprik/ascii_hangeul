@@ -558,8 +558,7 @@ EFINE_DEF int rhr_scan(void)
 	ignoring = 0;
 	buff = '\n';
 
-	c_int = efine_fgetc_unlocked_no_eintr(stdin);
-	while (c_int != EOF) {
+	while (EOF != (c_int = efine_fgetc_unlocked_no_eintr(stdin))) {
 		c = (char)c_int;
 		if (ignoring == 1) {
 			tmp = 1;
@@ -704,9 +703,7 @@ EFINE_DEF int rhr_scan(void)
 			b0 = c;
 			b1 = '\0';
 		}
-
-		c_int = efine_fgetc_unlocked_no_eintr(stdin);
-	}
+	} /* while */
 
 	if (0 != ferror(stdin)) {
 		perror("\n" RHR_MSG_FAILED_READ_CHAR);
