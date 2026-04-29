@@ -8,9 +8,8 @@
 */
 
 #define EFINE_HELPERS_IMPLEMENTATION
-#include "efine_helpers.h"
-
 #define EFINE_FSYNC_IMPLEMENTATION
+#include "efine_helpers.h"
 #include "efine_fsync.h"
 
 #include <stdlib.h>

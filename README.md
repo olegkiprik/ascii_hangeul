@@ -52,6 +52,8 @@ Consonants are either single or paired.
 '-' is a separator to avoid ambiguity. Braces are NOT separators.
 Put any symbol from the first two categories before '{' to prevent permutation in text.
 
+Use Ctrl-D on a \*nix terminal.
+
 ## Assumptions
 
 - [ ] Consonant-only geuljas are separated from other symbols by '-'.
